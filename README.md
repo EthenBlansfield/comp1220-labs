@@ -5,6 +5,7 @@ This repository holds the starter files for the COMP1220 programming labs. You w
 | Lab | Folder | Instructions |
 |---|---|---|
 | Lab 5: Algorithms in Python | `Lab5/` | [Lab5/Main_Lab_Instructions.md](Lab5/Main_Lab_Instructions.md) |
+| Lab 7: Classes in Python | `Lab7/` | [Lab7/README.md](Lab7/README.md) |
 
 ---
 
