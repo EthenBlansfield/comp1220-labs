@@ -8,7 +8,7 @@ Replace each `pass` with your own code. Each function needs one or two lines.
 
 def enqueue(queue, item):
     """Add item at the tail of the queue."""
-    pass
+    first = queue.append(item) 
 
 
 def dequeue(queue):
@@ -16,4 +16,8 @@ def dequeue(queue):
 
     If the queue is empty, return None.
     """
-    pass
+    if len(queue) == 0: 
+        return None 
+    else: 
+        head = queue.pop(0) 
+        return head

@@ -8,4 +8,9 @@ Replace `pass` with one line.
 
 def address(x, cols, row, col):
     """Return the address of the entry at the given row and column."""
-    pass
+    x = x 
+    c = cols 
+    i = row 
+    j = col 
+    address = x + (c * (i - 1) + (j - 1)) 
+    return address 

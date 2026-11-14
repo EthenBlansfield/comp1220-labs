@@ -7,7 +7,7 @@ Replace each `pass` with your own code. Each function needs one or two lines.
 
 def push(stack, item):
     """Put item on the top of the stack."""
-    pass
+    stack.append(item)
 
 
 def pop(stack):
@@ -15,7 +15,11 @@ def pop(stack):
 
     If the stack is empty, return None.
     """
-    pass
+    if len(stack) == 0: 
+        return None
+    else: 
+        last = stack.pop() 
+        return last
 
 
 def top(stack):
@@ -23,4 +27,8 @@ def top(stack):
 
     If the stack is empty, return None.
     """
-    pass
+    if len(stack) == 0: 
+        return None
+    else:  
+        last = stack[-1]
+        return last 
